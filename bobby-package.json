@@ -1,0 +1,21 @@
+{
+  "name": "bobby-wa-groove",
+  "version": "1.0.0",
+  "description": "Bobby Wa Groove $GROOVE Memecoin Website + Backend",
+  "main": "bobby-server.js",
+  "scripts": {
+    "start": "node bobby-server.js",
+    "dev": "nodemon bobby-server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "helmet": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "keywords": ["memecoin", "solana", "groove", "bobby", "pump.fun"],
+  "license": "MIT"
+}
